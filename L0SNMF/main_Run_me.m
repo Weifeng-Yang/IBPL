@@ -50,7 +50,6 @@ stopindex=1;
 
 
 
-
 %% Algorithm iteration starts
 [ngmar,dimension]=readfile(index,dimension);
 for i=1:length(dimension)-1
