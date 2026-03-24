@@ -140,6 +140,8 @@ lossdata=losssum{s};
     mes='IBPL'; 
     elseif(trigger(s)==9)
     mes='IBPL$^{+}$';  
+    elseif(trigger(s)==10)
+    mes='IBPL$^{+}$-TP'; 
     end
     ls=length(mess);
     mess{ls+1}=mes;
@@ -193,6 +195,8 @@ for s=1:length(ind)
     mes='IBPL'; 
     elseif(trigger(k)==9)
     mes='IBPL$^{+}$'; 
+    elseif(trigger(s)==10)
+    mes='IBPL$^{+}$-TP'; 
     end
     ls=length(mess);
     mess{ls+1}=mes;
