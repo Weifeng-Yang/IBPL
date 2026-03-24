@@ -91,7 +91,7 @@ btss=bts;
 atss=ats;
 
 elseif(flag==10)
-[vars,loss,tr,ats,bts]=IBPLtp(var,ngmar,aa,maxiteropt,at,bt,1,stopindex,r,t,btmax,rho); 
+[vars,loss,tr,ats,bts]=IBPLtp(var,ngmar,aa,maxiteropt,at,bt,1,stopindex,r,t,btmax,rho); %%IBPL+-TP
 varss=vars;
 lossdata=loss;
 trdata=tr;
