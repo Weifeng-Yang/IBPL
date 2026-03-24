@@ -90,6 +90,14 @@ trdata=tr;
 btss=bts;
 atss=ats;
 
+elseif(flag==10)
+[vars,loss,tr,ats,bts]=IBPLtp(var,ngmar,aa,maxiteropt,at,bt,1,stopindex,r,t,btmax,rho); 
+varss=vars;
+lossdata=loss;
+trdata=tr;
+btss=bts;
+atss=ats;
+
 end
 
 
