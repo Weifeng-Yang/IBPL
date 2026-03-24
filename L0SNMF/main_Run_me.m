@@ -22,7 +22,7 @@ clc
 %               when 7∈trigger, enable the APGL algorithm
 %               when 8∈trigger, enable the IBPL+ with the non-adaptive momentum
 %               when 9∈trigger, enable the IBPL+ with the adaptive momentum
-%               when 10∈trigger, enable the IBPL+-TP with the adaptive momentum
+%               when 10∈trigger, enable the IBPL+-TP with the two-phase adaptive momentum
 %   percent   ：The proportion of non-zero elements allowed in each decomposition matrix
 %   stopindex : The indicator of the stop condition.  
 %               To set the specific termination condition, see the 'stopcheck' function for details.  
